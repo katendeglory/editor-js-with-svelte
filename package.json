@@ -7,25 +7,26 @@
     "start": "sirv public"
   },
   "devDependencies": {
+    "@editorjs/checklist": "latest",
+    "@editorjs/code": "latest",
+    "@editorjs/delimiter": "latest",
+    "@editorjs/editorjs": "latest",
+    "@editorjs/embed": "latest",
+    "@editorjs/header": "latest",
+    "@editorjs/image": "latest",
+    "@editorjs/list": "latest",
+    "@editorjs/quote": "latest",
+    "@editorjs/table": "latest",
     "@rollup/plugin-commonjs": "^12.0.0",
     "@rollup/plugin-node-resolve": "^8.0.0",
     "rollup": "^2.3.4",
     "rollup-plugin-livereload": "^1.0.0",
     "rollup-plugin-svelte": "^5.0.3",
     "rollup-plugin-terser": "^5.1.2",
-    "svelte": "^3.0.0",
-    "@editorjs/editorjs": "latest",
-    "@editorjs/image": "latest",
-    "@editorjs/header": "latest",
-    "@editorjs/table": "latest",
-    "@editorjs/embed": "latest",
-    "@editorjs/quote": "latest",
-    "@editorjs/code": "latest",
-    "@editorjs/list": "latest",
-    "@editorjs/delimiter": "latest",
-    "@editorjs/checklist": "latest"
+    "svelte": "^3.0.0"
   },
   "dependencies": {
+    "react-image-file-resizer": "^0.3.6",
     "sirv-cli": "^1.0.0"
   }
 }
